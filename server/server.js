@@ -1,6 +1,11 @@
 import express from "express";
 import cors from "cors";
-import usersData from "./users.json" assert { type: "json" };
+
+// --- FIX START ---
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const usersData = require("./users.json");
+// --- FIX END ---
 
 const app = express();
 const PORT = 8000;
@@ -10,7 +15,8 @@ const PORT = 8000;
 ================================ */
 app.use(cors({
   origin: [
-    "https://docker-next-js-eight.vercel.app/"
+    "https://docker-next-js-eight.vercel.app", // Slash (/) hata diya hai end se, ye safe rehta hai
+    "http://localhost:3000"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
@@ -22,7 +28,7 @@ app.use(express.json());
    ROUTES
 ================================ */
 
-// Root Route (API Status + Meta)
+// Root Route
 app.get("/", (req, res) => {
   res.status(200).json({
     success: true,
@@ -43,7 +49,6 @@ app.get("/api/users", (req, res) => {
 // Get Single User by ID
 app.get("/api/users/:id", (req, res) => {
   const userId = Number(req.params.id);
-
   const user = usersData.users.find(u => u.id === userId);
 
   if (!user) {
@@ -59,10 +64,9 @@ app.get("/api/users/:id", (req, res) => {
   });
 });
 
-// Filter Users by Department
+// Filter by Department
 app.get("/api/users/department/:dept", (req, res) => {
   const dept = req.params.dept.toLowerCase();
-
   const filteredUsers = usersData.users.filter(
     user => user.department.toLowerCase() === dept
   );
@@ -88,10 +92,12 @@ app.use((req, res) => {
    SERVER
 ================================ */
 
-// 🔴 Vercel ke liye REQUIRED
+// 🔴 Vercel Export
 export default app;
 
-// 🔵 Local development ke liye
-app.listen(PORT, "0.0.0.0", () => {
-  console.log(`✅ Server running on http://localhost:${PORT}`);
-});
+// 🔵 Local Development
+if (process.env.NODE_ENV !== "production") {
+    app.listen(PORT, "0.0.0.0", () => {
+      console.log(`✅ Server running on http://localhost:${PORT}`);
+    });
+}
