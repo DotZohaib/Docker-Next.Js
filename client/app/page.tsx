@@ -35,7 +35,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const api = await fetch("https://dotzohaibapi.vercel.app/");
+        const api = await fetch("https://dotzohaibapi.vercel.app");
         const res: ApiResponse = await api.json();
         
         // Backend data structure handle karna
