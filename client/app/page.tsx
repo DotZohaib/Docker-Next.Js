@@ -7,7 +7,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const api = await fetch("http://localhost:8000/");
+        const api = await fetch("https://docker-next-js-server.vercel.app/");
         const res = await api.json();
         if (!res.success) {
           setData("Failed to fetch data from server");

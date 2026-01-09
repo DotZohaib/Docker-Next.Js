@@ -1,0 +1,65 @@
+{
+  "createdBy": "Zohaib Ali Dayo",
+  "totalUsers": 50,
+  "users": [
+    { "id": 1, "name": "Ali Khan", "department": "IT", "salary": 80000, "role": "Frontend Developer" },
+    { "id": 2, "name": "Ahmed Raza", "department": "IT", "salary": 90000, "role": "Backend Developer" },
+    { "id": 3, "name": "Sara Malik", "department": "HR", "salary": 60000, "role": "HR Manager" },
+    { "id": 4, "name": "Usman Ali", "department": "Finance", "salary": 95000, "role": "Accountant" },
+    { "id": 5, "name": "Ayesha Noor", "department": "Marketing", "salary": 70000, "role": "SEO Specialist" },
+
+    { "id": 6, "name": "Hassan Riaz", "department": "IT", "salary": 110000, "role": "MERN Stack Developer" },
+    { "id": 7, "name": "Bilal Ahmed", "department": "Sales", "salary": 65000, "role": "Sales Executive" },
+    { "id": 8, "name": "Fatima Zahra", "department": "Design", "salary": 75000, "role": "UI/UX Designer" },
+    { "id": 9, "name": "Danish Iqbal", "department": "IT", "salary": 120000, "role": "DevOps Engineer" },
+    { "id": 10, "name": "Hira Sheikh", "department": "HR", "salary": 58000, "role": "Recruiter" },
+
+    { "id": 11, "name": "Saad Khan", "department": "IT", "salary": 130000, "role": "Software Architect" },
+    { "id": 12, "name": "Noman Asif", "department": "Finance", "salary": 88000, "role": "Financial Analyst" },
+    { "id": 13, "name": "Iqra Yousuf", "department": "Marketing", "salary": 72000, "role": "Content Strategist" },
+    { "id": 14, "name": "Zain Abbas", "department": "Sales", "salary": 69000, "role": "Sales Manager" },
+    { "id": 15, "name": "Maryam Khalid", "department": "Design", "salary": 77000, "role": "Graphic Designer" },
+
+    { "id": 16, "name": "Umer Farooq", "department": "IT", "salary": 85000, "role": "QA Engineer" },
+    { "id": 17, "name": "Anum Tariq", "department": "HR", "salary": 61000, "role": "HR Executive" },
+    { "id": 18, "name": "Hamza Siddiqui", "department": "IT", "salary": 140000, "role": "AI Engineer" },
+    { "id": 19, "name": "Kashif Mehmood", "department": "Finance", "salary": 92000, "role": "Auditor" },
+    { "id": 20, "name": "Laiba Nadeem", "department": "Marketing", "salary": 68000, "role": "Social Media Manager" },
+
+    { "id": 21, "name": "Shahzaib Ali", "department": "IT", "salary": 100000, "role": "Full Stack Developer" },
+    { "id": 22, "name": "Taha Ahmed", "department": "Sales", "salary": 64000, "role": "Business Development Officer" },
+    { "id": 23, "name": "Noor Fatima", "department": "Design", "salary": 73000, "role": "Product Designer" },
+    { "id": 24, "name": "Asad Ullah", "department": "IT", "salary": 115000, "role": "Cloud Engineer" },
+    { "id": 25, "name": "Rimsha Akram", "department": "HR", "salary": 59000, "role": "HR Coordinator" },
+
+    { "id": 26, "name": "Fahad Khan", "department": "Finance", "salary": 97000, "role": "Finance Manager" },
+    { "id": 27, "name": "Sana Ilyas", "department": "Marketing", "salary": 71000, "role": "Brand Manager" },
+    { "id": 28, "name": "Adnan Qureshi", "department": "IT", "salary": 125000, "role": "Cyber Security Engineer" },
+    { "id": 29, "name": "Mehak Rizvi", "department": "Design", "salary": 76000, "role": "Visual Designer" },
+    { "id": 30, "name": "Imran Haider", "department": "Sales", "salary": 67000, "role": "Sales Consultant" },
+
+    { "id": 31, "name": "Talha Younis", "department": "IT", "salary": 105000, "role": "React Developer" },
+    { "id": 32, "name": "Eman Rauf", "department": "HR", "salary": 62000, "role": "People Operations" },
+    { "id": 33, "name": "Adeel Munir", "department": "Finance", "salary": 90000, "role": "Cost Controller" },
+    { "id": 34, "name": "Sidra Bashir", "department": "Marketing", "salary": 70000, "role": "Email Marketing Specialist" },
+    { "id": 35, "name": "Arslan Javed", "department": "IT", "salary": 118000, "role": "Node.js Developer" },
+
+    { "id": 36, "name": "Komal Shah", "department": "Design", "salary": 74000, "role": "UX Researcher" },
+    { "id": 37, "name": "Rizwan Akhtar", "department": "Sales", "salary": 66000, "role": "Sales Coordinator" },
+    { "id": 38, "name": "Hafsa Mir", "department": "HR", "salary": 60000, "role": "HR Assistant" },
+    { "id": 39, "name": "Muneeb Akram", "department": "IT", "salary": 135000, "role": "System Engineer" },
+    { "id": 40, "name": "Anas Siddiq", "department": "Finance", "salary": 94000, "role": "Risk Analyst" },
+
+    { "id": 41, "name": "Zoya Imtiaz", "department": "Marketing", "salary": 69000, "role": "Digital Marketer" },
+    { "id": 42, "name": "Sameer Nawaz", "department": "IT", "salary": 108000, "role": "Next.js Developer" },
+    { "id": 43, "name": "Bushra Noor", "department": "Design", "salary": 72000, "role": "Illustrator" },
+    { "id": 44, "name": "Farhan Latif", "department": "Sales", "salary": 68000, "role": "Key Account Manager" },
+    { "id": 45, "name": "Sadia Kamran", "department": "HR", "salary": 63000, "role": "Talent Acquisition Specialist" },
+
+    { "id": 46, "name": "Waqas Ali", "department": "IT", "salary": 145000, "role": "Tech Lead" },
+    { "id": 47, "name": "Rabia Ashraf", "department": "Marketing", "salary": 71000, "role": "PR Manager" },
+    { "id": 48, "name": "Salman Tariq", "department": "Finance", "salary": 98000, "role": "Budget Analyst" },
+    { "id": 49, "name": "Amna Sohail", "department": "Design", "salary": 75000, "role": "Creative Lead" },
+    { "id": 50, "name": "Zohaib Employee", "department": "IT", "salary": 150000, "role": "Project Manager" }
+  ]
+}
