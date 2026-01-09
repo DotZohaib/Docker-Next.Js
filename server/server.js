@@ -22,6 +22,9 @@ app.get("/", (req, res) => {
   })
 })
 
+// Vercel ke liye ye line sabse ZAROORI hai
+export default app;
+
 app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server is running on http://localhost:${PORT}`)
 })
