@@ -14,7 +14,7 @@ const PORT = 8000;
 ================================ */
 app.use(cors({
   origin: [
-    "https://docker-next-js-eight.vercel.app", // Slash (/) hata diya hai, ye better hai
+    "https://dotzohaibapiget.vercel.app/", // Slash (/) hata diya hai, ye better hai
     "http://localhost:3000"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
